@@ -47,7 +47,7 @@ body {
 
 /* Logo Styling */
 .logo {
-    height: 120px;  /* Doubled from 60px */
+    height: 150px;  /* Increased height */
     display: flex;
     align-items: center;
     padding: 10px 0;
@@ -258,13 +258,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 0.5rem;
 }
 
 .star-rating i {
-    color: #ffd700;  /* Gold color for stars */
-    font-size: 2rem;
-    margin: 0 0.2rem;
+    color: #ffd700;  /* Bright yellow color for stars */
+    font-size: 3rem;  /* Increased size */
 }
 
 .rating-text {
@@ -391,7 +392,7 @@ footer {
     }
 
     .logo {
-        height: 80px;  /* Doubled from 40px */
+        height: 100px;  /* Increased height for mobile */
     }
 
     .hero .container {
@@ -407,7 +408,7 @@ footer {
     }
     
     .star-rating i {
-        font-size: 1.5rem;
+        font-size: 2rem;  /* Adjusted size for mobile */
     }
 }
 
