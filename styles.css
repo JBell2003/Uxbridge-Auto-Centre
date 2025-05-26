@@ -226,13 +226,26 @@ body {
     margin: 2rem 0;
 }
 
-.contact-details p {
-    margin: 1rem 0;
-}
-
 .contact-details i {
     margin-right: 1rem;
     color: var(--accent-color);
+    width: 20px;
+    text-align: center;
+}
+
+.contact-details .fa-mobile-alt {
+    font-size: 1.2em;
+    color: #dc3545;  /* Red color to match the image */
+}
+
+.contact-details .fa-phone {
+    color: #dc3545;  /* Red color to match the image */
+}
+
+.contact-details p {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
 }
 
 .map-container {
