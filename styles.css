@@ -330,7 +330,7 @@ body {
     background: var(--secondary-color);
     padding: 1rem;
     border-radius: 10px;
-    height: 1000px;  /* Reduced height */
+    height: 1100px;  /* Increased from 1000px */
 }
 
 .contact-form iframe {
@@ -468,7 +468,7 @@ footer {
     }
     
     .contact-form {
-        height: 900px;  /* Reduced height on mobile */
+        height: 1000px;  /* Increased from 900px */
     }
 }
 
