@@ -47,7 +47,7 @@ body {
 
 /* Logo Styling */
 .logo {
-    height: 100px;
+    height: 120px;  /* Doubled from 60px */
     display: flex;
     align-items: center;
     padding: 10px 0;
@@ -100,6 +100,7 @@ body {
     color: var(--white);
     text-align: center;
     overflow: hidden;
+    min-height: 100vh;  /* Make hero section full height */
 }
 
 .logo-background {
@@ -252,12 +253,18 @@ body {
     border-radius: 10px;
 }
 
+/* Star Rating */
 .star-rating {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 1.5rem;
+}
+
+.star-rating i {
+    color: #ffd700;  /* Gold color for stars */
+    font-size: 2rem;
+    margin: 0 0.2rem;
 }
 
 .rating-text {
@@ -384,7 +391,7 @@ footer {
     }
 
     .logo {
-        height: 70px;
+        height: 80px;  /* Doubled from 40px */
     }
 
     .hero .container {
@@ -397,6 +404,10 @@ footer {
     
     .service-card i + i {
         font-size: 1.8rem;
+    }
+    
+    .star-rating i {
+        font-size: 1.5rem;
     }
 }
 
