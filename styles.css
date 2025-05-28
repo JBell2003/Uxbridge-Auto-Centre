@@ -143,23 +143,44 @@ body {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     color: var(--white);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+                 -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;
 }
 
 .hero h2 {
     font-size: 2.2rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
-    color: var(--text-color);
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+                 -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;
 }
 
 .hero h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: 400;
-    color: var(--text-color);
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+                 -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;
+}
+
+.hero .tagline {
+    color: var(--white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+                 -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000,
+                 1px 1px 0 #000;
 }
 
 .cta-button {
@@ -391,9 +412,13 @@ body {
 /* Footer */
 footer {
     background: var(--secondary-color);
-    color: var(--white);
     padding: 2rem 0;
     text-align: center;
+}
+
+footer p {
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 /* Responsive Design */
