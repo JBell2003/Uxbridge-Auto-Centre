@@ -60,6 +60,18 @@ body {
     object-fit: contain;
 }
 
+.business-name {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.business-name:hover {
+    color: var(--accent-color);
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -482,6 +494,10 @@ footer {
     
     .submit-button {
         padding: 0.75rem 1.5rem;
+    }
+
+    .business-name {
+        font-size: 1.2rem;
     }
 }
 
