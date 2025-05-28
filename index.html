@@ -9,131 +9,181 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="hero">
-        <nav>
-            <div class="logo">Uxbridge Auto Centre</div>
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#services">Services</a>
-                <a href="#about">About</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact">Contact</a>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="business-name">Uxbridge Auto Centre</span>
             </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
             <div class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-        </nav>
-        <div class="hero-content">
-            <h1>Expert Auto Repair in Uxbridge</h1>
-            <p>Professional car repair and maintenance services you can trust</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="logo-background">
+            <img src="images/header.jpg" alt="Uxbridge Auto Centre Background">
+        </div>
+        <div class="container">
+            <h1>Uxbridge Auto Centre</h1>
+            <h2>Professional Auto Repair</h2>
+            <h3>Complete Car Service & Collision Repair Solutions</h3>
+            <p class="tagline">Experience excellence in auto repair with Uxbridge's trusted service provider</p>
             <a href="#contact" class="cta-button">Book Service Now</a>
         </div>
-    </header>
+    </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <i class="fas fa-wrench"></i>
-                <h3>Auto Repair</h3>
-                <p>Complete diagnostic and repair services for all makes and models</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-car-crash"></i>
-                <h3>Collision Repair</h3>
-                <p>Expert collision repair and restoration services</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-oil-can"></i>
-                <h3>Maintenance</h3>
-                <p>Regular maintenance and tune-ups to keep your vehicle running smoothly</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-car"></i>
-                <h3>Diagnostics</h3>
-                <p>State-of-the-art diagnostic equipment for accurate problem identification</p>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Uxbridge Auto Centre</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Uxbridge Auto Centre, your trusted partner in professional auto repair and maintenance. With years of experience serving Uxbridge, we've built our reputation on delivering exceptional results and customer satisfaction.</p>
+                    <p>Our team of certified technicians uses state-of-the-art equipment and proven techniques to diagnose and repair your vehicle. Whether you need routine maintenance, collision repair, or major mechanical work, we guarantee attention to detail and outstanding results.</p>
+                </div>
+                <div class="about-images">
+                    <div class="image-container">
+                        <img src="images/sub.png" alt="Auto Repair Service">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="about">
-        <div class="about-content">
-            <div class="about-text">
-                <h2>About Uxbridge Auto Centre</h2>
-                <p>With years of experience serving the Uxbridge community, we're your trusted partner for all auto repair and maintenance needs. Our certified technicians use the latest technology and equipment to provide top-quality service for all makes and models.</p>
-                <ul class="about-features">
-                    <li><i class="fas fa-check"></i> Certified Technicians</li>
-                    <li><i class="fas fa-check"></i> Latest Diagnostic Equipment</li>
-                    <li><i class="fas fa-check"></i> Quality Parts & Service</li>
-                    <li><i class="fas fa-check"></i> Customer Satisfaction Guaranteed</li>
-                </ul>
-            </div>
-            <div class="about-image">
-                <img src="sub.png" alt="Uxbridge Auto Centre facility">
+    <!-- Reviews Section -->
+    <section id="reviews" class="section">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-content">
+                <div class="google-reviews">
+                    <div class="star-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="rating-text">5 Stars</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.854544797776!2d-79.12619372347979!3d44.115952071077534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d539452c5df30d%3A0xf3a0cbf2befcb369!2sUxbridge%20Auto%20Centre!5e0!3m2!1sen!2sca!4v1711409548736!5m2!1sen!2sca"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="reviews">
-        <h2>Customer Reviews</h2>
-        <div class="google-reviews">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.854544797776!2d-79.12619372347979!3d44.115952071077534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d539452c5df30d%3A0xf3a0cbf2befcb369!2sUxbridge%20Auto%20Centre!5e0!3m2!1sen!2sca!4v1711409548736!5m2!1sen!2sca"
-                width="100%"
-                height="450"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Auto Repair</h3>
+                    <p>Professional diagnostic and repair services for all makes and models. We handle everything from minor repairs to major mechanical work.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car-crash"></i>
+                    <h3>Collision Repair</h3>
+                    <p>Expert collision repair and restoration services. We'll get your vehicle back to its pre-accident condition with precision and care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-oil-can"></i>
+                    <h3>Maintenance</h3>
+                    <p>Regular maintenance services including oil changes, brake service, tire rotation, and comprehensive vehicle inspections.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Diagnostics</h3>
+                    <p>State-of-the-art diagnostic equipment to accurately identify and resolve any issues with your vehicle.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Get in Touch</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 345 Main St N, Uxbridge, ON L9P 1T1</p>
-                <p><i class="fas fa-phone"></i> (905) 852-3309</p>
-                <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
-                <p><i class="fas fa-clock"></i> Sat: 8:00 AM - 4:00 PM</p>
-                <p><i class="fas fa-clock"></i> Sun: Closed</p>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> 345 Main St N, Uxbridge, ON L9P 1T1</p>
+                        <p><i class="fas fa-phone"></i> (905) 852-3309</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Sat: 8:00 AM - 4:00 PM</p>
+                        <p><i class="fas fa-clock"></i> Sun: Closed</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.854544797776!2d-79.12619372347979!3d44.115952071077534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d539452c5df30d%3A0xf3a0cbf2befcb369!2sUxbridge%20Auto%20Centre!5e0!3m2!1sen!2sca!4v1711409548736!5m2!1sen!2sca"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="contact-us-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="repair">Auto Repair</option>
+                                <option value="collision">Collision Repair</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="diagnostics">Diagnostics</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="tel" placeholder="Phone">
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
         </div>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Uxbridge Auto Centre</h3>
-                <p>Your trusted auto repair shop in Uxbridge</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <a href="#services">Services</a>
-                <a href="#about">About</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="footer-section">
-                <h3>Connect With Us</h3>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-google"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
+        <div class="container">
             <p>&copy; 2024 Uxbridge Auto Centre. All rights reserved.</p>
         </div>
     </footer>
