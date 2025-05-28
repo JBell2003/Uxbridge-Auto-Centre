@@ -341,29 +341,24 @@ body {
     justify-content: center;
     gap: 1rem;
     padding: 1rem 2rem;
-    background-color: var(--background-dark);
+    background-color: var(--primary-color);
     color: var(--text-light);
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all 0.3s ease;
-    border: 1px solid var(--text-gray);
+    border: none;
 }
 
 .google-review-button i {
     font-size: 1.5rem;
-    color: #4285F4; /* Google blue */
+    color: var(--text-light);
 }
 
 .google-review-button:hover {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
+    background-color: #c4303b;
     transform: translateY(-2px);
-}
-
-.google-review-button:hover i {
-    color: var(--text-light);
 }
 
 .review-link {
