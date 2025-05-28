@@ -1,18 +1,19 @@
 // Mobile Menu Toggle
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-links a');
 
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
     hamburger.classList.toggle('active');
 });
 
-// Close mobile menu when clicking outside
-document.addEventListener('click', (e) => {
-    if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+// Close mobile menu when clicking a link
+links.forEach(link => {
+    link.addEventListener('click', () => {
         navLinks.classList.remove('active');
         hamburger.classList.remove('active');
-    }
+    });
 });
 
 // Smooth Scrolling for Navigation Links
@@ -77,4 +78,39 @@ sections.forEach(section => {
     section.style.transform = 'translateY(20px)';
     section.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
     observer.observe(section);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Sticky navigation
+    const nav = document.querySelector('nav');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll <= 0) {
+            nav.classList.remove('scroll-up');
+            return;
+        }
+
+        if (currentScroll > lastScroll && !nav.classList.contains('scroll-down')) {
+            nav.classList.remove('scroll-up');
+            nav.classList.add('scroll-down');
+        } else if (currentScroll < lastScroll && nav.classList.contains('scroll-down')) {
+            nav.classList.remove('scroll-down');
+            nav.classList.add('scroll-up');
+        }
+        lastScroll = currentScroll;
+    });
+
+    // Form submission
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Add your form submission logic here
+            alert('Thank you for your message. We will get back to you soon!');
+            contactForm.reset();
+        });
+    }
 }); 
