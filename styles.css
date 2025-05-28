@@ -136,11 +136,15 @@ body {
 .hero .container {
     position: relative;
     z-index: 1;
-    padding-top: 250px;  /* Increase padding to move content below image text */
+    padding-top: 100px;  /* Reduced from 250px to move text up */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    font-size: 4.2rem;  /* Increased from 3.5rem */
     margin-bottom: 1rem;
     color: var(--white);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
@@ -151,7 +155,7 @@ body {
 }
 
 .hero h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;  /* Slightly increased from 2.2rem for better proportion */
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: var(--white);
@@ -459,10 +463,14 @@ footer p {
         height: 200px;
     }
 
-    .hero h1 {
-        font-size: 2.5rem;
+    .hero .container {
+        padding-top: 60px;  /* Adjusted for mobile */
     }
-
+    
+    .hero h1 {
+        font-size: 2.8rem;  /* Adjusted for mobile */
+    }
+    
     .hero h2 {
         font-size: 1.8rem;
     }
@@ -499,10 +507,6 @@ footer p {
 
     #navbar {
         height: 70px;  /* Adjusted mobile height */
-    }
-
-    .hero .container {
-        padding-top: 10px;
     }
 
     .contact-grid {
