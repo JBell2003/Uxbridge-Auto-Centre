@@ -1,6 +1,8 @@
-# Clean Zip Auto Detailing Website
+# Ultra Property Services Inc.
 
-A modern, responsive website for Clean Zip Auto Detailing, showcasing their auto detailing and repair services in Richmond Hill, Ontario.
+Professional landscaping and property maintenance services website.
+
+Visit our website: [Ultra Property Services Inc.](https://jbell2003.github.io/Ultra-Property-Services-Inc./)
 
 ## Features
 
